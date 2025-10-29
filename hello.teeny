@@ -1,0 +1,5 @@
+# comment ignored?
+
+LABEL loop
+PRINT "hi, mom."
+GOTO loop
