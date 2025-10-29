@@ -1,6 +1,7 @@
 import enum
 import sys
 
+# The lexer parses text input and tokenizes it
 class Lexer:
 	def __init__(self, source):
 		# append a newline to the end of the source for parsing purposes
@@ -137,6 +138,7 @@ class Lexer:
 		self.nextChar()
 		return token
 
+# Tokens break up the text to be ready for parsing
 class Token:
 	def __init__(self, tokenText, tokenKind):
 		self.text = tokenText # actual text of the token

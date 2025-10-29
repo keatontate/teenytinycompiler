@@ -1,6 +1,6 @@
 # Teeny Tiny Compiler
-# original tutorial by https://austinhenley.com/blog/teenytinycompiler1.html
-# modifications by Keaton Tate
+# Original tutorial by https://austinhenley.com/blog/teenytinycompiler1.html
+# Modifications by Keaton Tate
 
 from lex import *
 
